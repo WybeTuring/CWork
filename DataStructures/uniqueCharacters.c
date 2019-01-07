@@ -1,3 +1,11 @@
+/*
+Author: Lemfon Karl Ndze'dzenyuy <WybeTuring>
+Email: karllemfon@gmail.com, wybeturing@gmail.com
+GitHub: WybeTuring
+Date: 06/01/2019
+Collaborators: AlexWaweru
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -25,7 +33,7 @@ int main(){
       return 1;
     }
     else{
-      arr[y] = 1; 
+      arr[y] = 1;
     }
  }
  printf("The string is made up of unique characters\n");

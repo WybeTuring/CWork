@@ -1,3 +1,10 @@
+/*
+Author: Lemfon Karl Ndze'dzenyuy <WybeTuring>
+Email: karllemfon@gmail.com, wybeturing@gmail.com
+GitHub: WybeTuring
+Date: 06/01/2019
+Collaborators: AlexWaweru
+*/
 This folder contains some solutions to the problems in "Cracking the interview" that are based on data structures
 Folder is to be updated constantly as I pick up more challenges
 # String Reverse

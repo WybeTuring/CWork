@@ -1,3 +1,10 @@
+/*
+Author: Lemfon Karl Ndze'dzenyuy <WybeTuring>
+Email: karllemfon@gmail.com, wybeturing@gmail.com
+GitHub: WybeTuring
+Date: 06/01/2019
+Collaborators: AlexWaweru
+*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
