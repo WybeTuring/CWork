@@ -63,5 +63,6 @@ int main(){
 
 
   printf("Output: %d litres of water.\n", max_size);
+  free(table);
   return 0;
 }
