@@ -31,22 +31,6 @@ def calculate(ls):
             else:
                 max_size -= ls[i]
     return max_size;
-# Function to find the sum of a chosen partition
-# Did not even end up using the main function
-def main(df):
-    sumValue = 0
-    start = 0
-    k = 0
-    size = len(df)
-    # Calculating the volume
-    while k < size:
-        if (df[k] > df[start]) and (k != start):
-            sumValue += calculate(df[start:k+1])
-            start = k
-            k += 1
-        else:
-            k += 1
-    return sumValue
 # Writing a function to split the array into desired descriptions
 def slicer(arr):
     start = 0
