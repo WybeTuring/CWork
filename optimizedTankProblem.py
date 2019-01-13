@@ -28,31 +28,19 @@ def calculate(ls):
 print(calculate([3, 0, 0, 4, 6, 7, 3, 4]))
 print("Enter the values of the tankl description: ")
 tank = input().split()
-
 # changing the contents of the tank form strings to integers
 for i in range(0, len(tank)):
     tank[i] = int(tank[i])
-
+# work proper
 sumValue = 0
 start = 0
 k = 0
-
+size = len(tank)
 # Calculating the volume
-while k < len(tank):
-    if tank[k] > tank[start]:
+while k < size:
+    if (tank[k] > tank[start]) and (k != start):
         sumValue += calculate(tank[start:k+1])
         start = k
         k += 1
-
-"""
-if i != (len(tank) - 1):
-    tank = tank[len(tank)-1:i:-1]
-    j = 0
-    while j < len(tank):
-        if tank[j] > tank[start]:
-            sumValue += calculate(tank[start:j+1])
-            start = j
-            j += 1
-"""
-print(sumValue)
-print("Hello dude")
+    else:
+        k += 1
