@@ -16,5 +16,5 @@ tank = input().split()
 # changing the contents of the tank form strings to integers
 for i in range(0, len(tank)):
     tank[i] = int(tank[i])
-
+# Testing reasons
 print(slicer(tank))
