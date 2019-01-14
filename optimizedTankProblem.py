@@ -57,4 +57,4 @@ finalSum = 0
 for array in arrays:
     print(calculate(array))
     finalSum += calculate(array)
-print("The sum value for now is "+ str(finalSum))
+print("The total volume of the tank is ", (finalSum), "litres")

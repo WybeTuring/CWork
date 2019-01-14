@@ -6,6 +6,7 @@ Intent: This is simply practice for the study I am doing on pointers
 */
 #include <stdio.h>
 #include <stdlib.h>
+#define __STDC__
 
 int main(){
   int *table, size, i=0;
@@ -63,6 +64,7 @@ int main(){
 
 
   printf("Output: %d litres of water.\n", max_size);
+  printf("%s", __STDC__ );
   free(table);
   return 0;
 }
