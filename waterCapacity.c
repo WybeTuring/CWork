@@ -64,7 +64,7 @@ int main(){
 
 
   printf("Output: %d litres of water.\n", max_size);
-  printf("%s", __STDC__ );
+  printf("%s", __STDC__);
   free(table);
   return 0;
 }
