@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define myspace 100
+#define funct(n)  \
+        do{       \
+            print(sn); \
+        }     \
 
 int main()
 {
